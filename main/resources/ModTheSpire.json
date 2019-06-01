@@ -1,0 +1,10 @@
+{
+  "modid": "CustomStart",
+  "name": "Custom Start",
+  "author_list": ["Akronymus"],
+  "description": "Start the game however you want.",
+  "version": "1.1.0",
+  "sts_version": "01-03-2019",
+  "mts_version": "3.6.0",
+  "dependencies": ["basemod"]
+}

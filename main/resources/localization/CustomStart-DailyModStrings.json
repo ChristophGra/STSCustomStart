@@ -1,0 +1,10 @@
+{
+  "CustomStart:CustomDeck": {
+    "NAME": "Custom Deck",
+    "DESCRIPTION": "Start the game with your own deck."
+  },
+  "CustomStart:CustomRelic": {
+    "NAME": "Relic Selection",
+    "DESCRIPTION": "Start the game with any relics you want."
+  }
+}
