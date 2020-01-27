@@ -89,6 +89,7 @@ public class CustomDeckScreenBase {
       colorList.add(AbstractCard.CardColor.BLUE);
       colorList.add(AbstractCard.CardColor.RED);
       colorList.add(AbstractCard.CardColor.GREEN);
+      colorList.add(AbstractCard.CardColor.PURPLE);
       colorList.add(AbstractCard.CardColor.COLORLESS);
       colorList.addAll(BaseMod.getCardColors());
       colorList.remove(AbstractCard.CardColor.CURSE);
