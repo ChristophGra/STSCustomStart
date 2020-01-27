@@ -86,11 +86,10 @@ public class CustomDeckScreenBase {
     public void open() {
       AbstractDungeon.player.masterDeck.clear();
       colorList = new ArrayList<>();
-      colorList.add(AbstractCard.CardColor.BLUE);
-      colorList.add(AbstractCard.CardColor.RED);
-      colorList.add(AbstractCard.CardColor.GREEN);
-      colorList.add(AbstractCard.CardColor.PURPLE);
-      colorList.add(AbstractCard.CardColor.COLORLESS);
+      for (AbstractCard.CardColor col : AbstractCard.CardColor.values())
+      {
+        colorList.add(col);
+      }
       colorList.addAll(BaseMod.getCardColors());
       colorList.remove(AbstractCard.CardColor.CURSE);
       InitCardList(colorList.get(0));
